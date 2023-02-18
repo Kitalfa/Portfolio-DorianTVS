@@ -250,7 +250,7 @@ img{
   justify-self: center;
 }
 .about__img img{
-  max-width: 450px;
+  max-width: 100%;
   border-radius: .5rem;
 }
 
@@ -308,7 +308,7 @@ img{
 }
 .skills__img{
   border-radius: .5rem;
-  padding-left: 3rem;
+  
 }
 
 /* ===== WORK =====*/
@@ -467,6 +467,14 @@ img{
   .contact__container{
     justify-items: center;
   }
+  .skills__img {
+    padding-left: 3rem;
+    border-radius: 0.5rem;
+  }
+  .about__img img{
+    
+    border-radius: .5rem 0 0 .5rem;
+  }
 }
 
 @media screen and (min-width: 1024px){
@@ -481,5 +489,6 @@ img{
     
     width: 100%;
   }
+  
 
 }
