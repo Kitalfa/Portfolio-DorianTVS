@@ -34,7 +34,7 @@ const sr = ScrollReveal({
 });
 
 /*SCROLL HOME*/
-sr.reveal('.home__title',{}); 
+// sr.reveal('.home__title',{}); 
 sr.reveal('.button',{delay: 200}); 
 sr.reveal('.home__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
@@ -80,7 +80,7 @@ filtreOver(workImg2, workTech2)
 
 /*SKILLS ANIMATION */
 
-// let text = document.querySelector('.skills__text');
+let text = document.querySelector('.home__title');
 
 // function typeWriter(text) {
     
@@ -99,27 +99,5 @@ filtreOver(workImg2, workTech2)
 //     }
 //     }
 // }
-
-
-// window.addEventListener("scroll", () => {
-//     if (window.scrollY = "100") {    
-           
-//         typeWriter(text);
-        
-       
-//     }
-  
-//     }
-// )
-// window.removeEventListener("scroll", () => {
-//     if (window.scrollY = "100") {    
-           
-//         typeWriter(text);
-        
-       
-//     }
-  
-//     }
-// )
-
+// typeWriter(text);
 
