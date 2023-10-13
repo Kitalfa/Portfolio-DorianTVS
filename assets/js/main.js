@@ -77,7 +77,7 @@ filtreOver(workImg2, workTech2);
 
 /*SKILLS ANIMATION */
 
-// let text = document.querySelector('.home__title');
+let text = document.querySelector('.about__text');
 
 // function typeWriter(text) {
 //   let splitText = text.innerText.split('');
@@ -86,7 +86,7 @@ filtreOver(workImg2, workTech2);
 //   i = 0;
 //   setInterval(function () {
 //     AjoutDeLettre();
-//   }, 30);
+//   }, 10);
 
 //   function AjoutDeLettre() {
 //     if (i < splitText.length) {
